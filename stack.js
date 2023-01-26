@@ -1,8 +1,8 @@
 class Stack {
   list = [];
 
-  constructor(initialList) {
-    if (initialList) this.list = initialList;
+  constructor() {
+    this.stack = [];
   }
 
   addFront(item) {
@@ -11,7 +11,18 @@ class Stack {
   }
 
   push(item) {
-    return initialList.push(item);
+    return this.stack.push(item);
+  }
+
+  pop(item) {
+    return this.stack.pop(item)
+  }
+
+  peek() {
+    if (this.stack.length === 0) {
+      throw new Error("out of bounds");
+    }
+    return this.stack[this.stack.length -1];
   }
 
   get readableList() {
