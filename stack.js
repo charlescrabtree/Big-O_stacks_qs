@@ -40,10 +40,8 @@ class Stack {
   }
 }
 
-const myStack = new Stack([4, 6, 8]);
 
-myStack.addFront(3);
-
+//this is for testing the Stack class
 const stack = new Stack();
 stack.push('fox');
 stack.push('goose');
@@ -56,3 +54,5 @@ console.log(stack.pop()); // 'llama'
 console.log(stack.peek()); // 'fox'
 console.log(stack.pop()); // 'fox'
 console.log(stack.pop()); // null
+
+module.exports = { Stack };
