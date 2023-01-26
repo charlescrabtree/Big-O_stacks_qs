@@ -1,0 +1,19 @@
+{
+  "name": "big-o_stacks_qs",
+  "version": "1.0.0",
+  "description": "DS&A day 2 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlescrabtree/Big-O_stacks_qs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlescrabtree/Big-O_stacks_qs/issues"
+  },
+  "homepage": "https://github.com/charlescrabtree/Big-O_stacks_qs#readme"
+}
