@@ -56,3 +56,4 @@ console.log(stack.pop()); // 'fox'
 console.log(stack.pop()); // null
 
 module.exports = { Stack };
+
